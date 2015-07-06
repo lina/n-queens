@@ -146,7 +146,7 @@
       for( ; rowIdx < size && colIdx < size; rowIdx++, colIdx++ ){
         if( colIdx >= 0 ) {
           var row = this.get(rowIdx);
-          count += row[colIdx];
+          count += row[colIdx]; 
         }
       }
 
